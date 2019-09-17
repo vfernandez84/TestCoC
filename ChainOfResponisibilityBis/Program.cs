@@ -44,7 +44,7 @@ namespace ChainOfResponisibilityBis {
         public ListMinion() {
             TheList.Add("Pepe");
             TheList.Add("John");
-            TheList.Add("Jerry");
+            TheList.Add("Arnaud");
         }
 
         public override void Check(Drunktard drunktard) {
@@ -64,7 +64,7 @@ namespace ChainOfResponisibilityBis {
         public EliteMinion() {
             PasswordNotebook.Add("Pepe", "1234");
             PasswordNotebook.Add("John", "123456");
-            PasswordNotebook.Add("Jerry", "imajerk");
+            PasswordNotebook.Add("Arnaud", "12345678");
         }
 
         public override void Check(Drunktard drunktard) {
@@ -82,7 +82,7 @@ namespace ChainOfResponisibilityBis {
         List<string> BlackList = new List<string>();
 
         public BlackListMinion() {
-            BlackList.Add("Jerry");
+            BlackList.Add("Arnaud");
         }
 
         public override void Check(Drunktard drunktard) {
@@ -91,6 +91,7 @@ namespace ChainOfResponisibilityBis {
             }
             else {
                 Console.WriteLine($"FUCK OFF {drunktard.Name}!");
+                Console.WriteLine($"Cast's him out flying away...");
             }
         }
 

@@ -6,7 +6,7 @@ namespace ChainOfResponsibility {
             Console.WriteLine("Hello World!");
 
             Console.WriteLine("----------------------------------------");
-            Console.WriteLine("Scenario 1: Cooper cable");
+            Console.WriteLine("Scenario 1: Copper cable");
             Console.WriteLine("----------------------------------------");
 
             Processor furnace1 = new Furnace();
